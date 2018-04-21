@@ -1,0 +1,125 @@
+@media (max-width: 900px) {
+    #contenido{
+        width: 100%;
+    }
+
+    header{
+        text-align: center;
+    }
+
+    .columna {
+        padding: 0 7%;
+    }
+
+}
+
+@media (min-width: 900px) {
+    #contenido{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    #logo {
+        padding-left: 8%;
+    }
+
+    nav{
+        float: right;
+        margin-top: -5%;
+    }
+
+    .columna {
+        padding: 0 14%;
+    }
+
+}
+
+body{
+    font-family: 'Catamaran', sans-serif;
+}
+
+header{
+    background: #dde6e8;
+    overflow: hidden;
+    padding: 2%;
+    padding-bottom: 0;
+}
+
+h1{
+    margin-top: 0;
+    color: black;
+}
+
+h2{
+    margin: 0;
+}
+
+h3{
+    margin: 0;
+}
+
+#menu ul{
+    padding: 0;
+}
+
+#menu li {
+    display: inline;
+    padding: 2vh;
+}
+
+#menu li a {
+    color: black;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#menu .active {
+    text-decoration: none;
+}
+
+#foto{
+    margin-top: 1%;
+    text-align: left;
+    width: 25%;
+}
+
+#informacion-personal {
+    margin-top: -35%;
+    text-align: left;
+    float: right;
+    width: 70%;
+
+}
+
+p{
+    margin: 0;
+}
+
+.columna {
+    width: 50%;
+}
+
+#social {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#social li a{
+    text-decoration: none;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+    margin: 0 10px 0 0;
+}
+
+footer {
+    width: 100%;
+    background: #dde6e8;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 1%;
+}
