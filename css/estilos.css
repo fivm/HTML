@@ -123,3 +123,89 @@ footer {
     flex-flow: row nowrap;
     padding: 1%;
 }
+
+#educacion {
+    margin-top: 1%;
+}
+
+.tabla {
+    border-collapse: collapse;
+    border-spacing: 0;
+    vertical-align: top;
+    width: 100%;
+}
+
+.tabla td {
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    border-color: gray;
+}
+
+.tabla th {
+    background: #ffcdda;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    border-color: gray;
+}
+
+
+.form-horizontal {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.form-horizontal .control-label {
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.form-control {
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+    -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+    box-sizing: border-box;
+}
+
+.form-group{
+    margin-top: 10px;
+}
+
+input[type=checkbox], input[type=radio] {
+    width:auto;
+    margin: 4px 0 0;
+    margin-top: 1px;
+    line-height: normal;
+    margin-left: 10px;
+    vertical-align: bottom;
+}
+
+textarea.form-control {
+    resize: none;
+    vertical-align: top;
+    height: 50px;
+}
+
+.btn {
+    float: right;
+    height: 34px;
+    width: 100px;
+    background: #dde6e8;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-bottom: 5%;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div id="contenido">
+    <header>
+        <section id="logo">
+            <svg height="60px" width="60px">
+                <image xlink:href="img/logo.svg" height="50px" width="50px">
+            </svg>
+        </section>
+        <h1>Curriculum Vitae</h1>
+        <h2>Flor Iveth Valverde Montes</h2>
+        <h3>San José, 09 de setiembre, 1993</h3>
+        <nav id="menu" class="">
+            <ul>
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="educacion.html">Educación</a></li>
+                <li><a href="experiencia.html">Experiencia</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="educacion">
+        <h2>Educación</h2>
+        <table class="tabla">
+            <tr>
+                <th>Título</th>
+                <th>Año</th>
+                <th>Institución</th>
+                <th>Lugar</th>
+                <th>¿Culminó?</th>
+            </tr>
+            <tr>
+                <td>Lic. Informatica con énfasis en Sistemas de Información</td>
+                <td>2018</td>
+                <td>Universidad Nacional</td>
+                <td>CR, Perez Zeledón</td>
+                <td>En Curso</td>
+            </tr>
+            <tr>
+                <td>Bachiller en Ingeniería en Sistemas de Información</td>
+                <td>2017<br><br></td>
+                <td>Universidad Nacional</td>
+                <td>CR, Perez Zeledón</td>
+                <td>Sí</td>
+            </tr>
+            <tr>
+                <td>Diplomado en desarrollo de aplicaciones informáticas</td>
+                <td>2015</td>
+                <td>Universidad Nacional</td>
+                <td>CR, Perez Zeledón</td>
+                <td>Sí</td>
+            </tr>
+        </table><br>
+        <h3>Agregar Estudios</h3>
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label class="control-label" for="degree">Título:</label>
+                <div>
+                    <input class="form-control"type="text" name="degree">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="year">Año:</label>
+                <div>
+                    <select class="form-control" name="year">
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="institution">Institución:</label>
+                <div>
+                    <input class="form-control" type="text" name="institution">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="place">Lugar:</label>
+                <div>
+                    <textarea class="form-control" name="place"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="finish">¿Culminó?:</label>
+                <div>
+                    <input class="form-control" type="radio" name="finish" value="1" checked> Sí
+                    <input class="form-control" type="radio" name="finish" value="2"> No
+                    <input class="form-control" type="radio" name="finish" value="3"> En Curso
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn">Guardar</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <div class="columna">
+            <h2>Contacto</h2>
+            flory1727@hotmail.com<br> SJ, Pérez Zeledón<br> (+506) 89646602
+        </div>
+        <div class="columna">
+            <h2>Redes Sociales</h2>
+            <ul id="social">
+                <li><a href="https://www.facebook.com/" title="Facebook"><img class="icon" src="img/icon-fb.png"/>Facebook</a></li>
+                <li><a href="https://www.twitter.com/" title="Twitter"><img class="icon" src="img/icon-tr.png"/>Twitter</a></li>
+                <li><a href="https://www.pinterest.com/" title="Pinterest"><img class="icon" src="img/icon-pn.png"/>Pinterest</a></li>
+            </ul>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
